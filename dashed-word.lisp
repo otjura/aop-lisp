@@ -2,6 +2,8 @@
    Transform user given string like this: example => -e-x-a-m-p-l-e- |#
 
 (defun dashword()
+  "Adds dashes to string and returns it. abc => -a-b-c-
+   @post: STRING"
   (princ "Write word: ")
   (let* ((word (read-line))
 	 (chars (coerce word 'list)))
