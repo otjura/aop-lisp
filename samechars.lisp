@@ -4,7 +4,8 @@
    if arg1 is "fred" it returns "re". |#
 
 (defun samechars (arg0 arg1)
-  (declare (type (string) arg0 arg1))
-  (if (string= arg0 arg1)
+  (if (equal arg0 arg1)
       arg0
-      nil))
+      (let* ((tmp1 (loop for char across arg0 collect char))
+	     (tmp2 (loop for char across arg1 collect char)))
+	(concatenate 'string (intersection tmp1 tmp2)))))
