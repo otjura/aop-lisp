@@ -4,6 +4,7 @@
    if arg1 is "fred" it returns "re". |#
 
 (defun samechars (arg0 arg1)
+  "@pre: STRING STRING @post: STRING"
   (if (equal arg0 arg1)
       arg0
       (let* ((tmp1 (loop for char across arg0 collect char))

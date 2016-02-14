@@ -2,6 +2,7 @@
    Write function that returns true if arg is prime and nil if not. |#
 
 (defun primep (number)
+  "@pre: NUMBER @post: NUMBER"
   (let ((prime t))
     (if (not (or (= number 0) (= number 1)))
 	(loop for divisor from 2 to (- number 1)

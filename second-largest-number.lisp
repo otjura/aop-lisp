@@ -2,6 +2,7 @@
    Ask three numbers and print the second largest. |#
    
 (defun second-largest-number ()
+  "@post: NUMBER"
   (princ "Give first number: ")
   (let ((first (read)))
     (princ "Give second number: ")
@@ -12,6 +13,7 @@
 
 ;; alternative with LET* and PROGN
 (defun second-largest-number-alt ()
+  "@post: NUMBER"
   (let* ((first (progn (princ "First number: ") (read)))
 	 (second (progn (princ "Second number: ") (read)))
 	 (third (progn (princ "Third number: ") (read))))

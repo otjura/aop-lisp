@@ -3,6 +3,7 @@
    For example: int: 1 3 => 5, float 1.2 1.5 => 1.8, boolean t nil => t |#
 
 (defun next-in-series (x y)
+  "@pre: NUMBER NUMBER @post: BOOLEAN || SINGLE-FLOAT || INTEGER"
   (let ((result))
     (cond ((and (type-of x) (type-of y) 'boolean)
 	   (if (eql x y) (setf result y) (setf result x)))

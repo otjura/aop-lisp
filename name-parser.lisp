@@ -2,6 +2,7 @@
    Parse first name and surname from whole name assuming just fname lname combo |#
    
 (defun name-parser ()
+  "@post: STRING"
   (format t "Give your name: ")
   (let ((name (read-line)))
     (format t "Full name: ~a~%" (string-capitalize name))
