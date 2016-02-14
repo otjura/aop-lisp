@@ -3,6 +3,7 @@
    or print first and last chars if even length. |#
 
 (defun string-length-tester ()
+  "@post: STRING"
   (let ((str (progn (princ "Write word: ") (read-line))))
     (if (oddp (length str))
 	(format t "~a~%" (list (char str 0)
