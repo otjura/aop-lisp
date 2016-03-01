@@ -3,7 +3,7 @@
 
 (defun dashword()
   "Adds dashes to string and returns it. abc => -a-b-c-
-   @post: STRING"
+   @return string"
   (princ "Write word: ")
   (let* ((word (read-line))
 	 (chars (coerce word 'list)))

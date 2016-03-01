@@ -2,5 +2,5 @@
    Function that returns largest common nominator of two args. |#
 
 (defun largest-common (x y)
-  "@pre: NUMBER NUMBER @post: NUMBER"
+  "@param number number @return number"
   (gcd x y))

@@ -5,7 +5,7 @@
 (defparameter *random* (+ 1 (random 19)))
 
 (defun guess-number ()
-  "@post: STRING"
+  "@return string"
   (princ "Guess: ")
   (let ((guess (read)))
     (if (= guess *random*)

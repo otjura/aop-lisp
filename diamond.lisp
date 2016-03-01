@@ -3,7 +3,7 @@
    but give error message if arg is not odd. |#
 
 (defun diamond (height)
-  "@pre: INTEGER @post: STRING"
+  "@param number @return number"
   (if (not (oddp height))
       (princ "Height needs to be odd number!")
       (let ((half (floor (/ height 2))) (stars 1))

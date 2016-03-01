@@ -2,5 +2,5 @@
    Return factorial of given number. If it has no factorial, return -1. |#
 
 (defun tell-factorial (x &optional y)
-  "@pre: NUMBER @post: NUMBER"
+  "@param number @number"
   (/ (tell-factorial (/ x y) y)

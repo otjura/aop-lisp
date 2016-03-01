@@ -2,7 +2,7 @@
    Print longer string of two args |#
    
 (defun longer-string (a b)
-  "@pre: STRING STRING age @post: STRING"
+  "@param string string @return string"
   (princ (if (> (length a) (length b))
 	     a
 	     b)))

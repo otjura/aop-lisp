@@ -2,7 +2,7 @@
    Print as many Fibonacci numbers as user wants! |#
 
 (defun fibonacci (fibs)
-  "@pre: INTEGER @post: INTEGER"
+  "@param number @return number"
   (iter 1 0 fibs))
 
 (defun iter (a b tally)
