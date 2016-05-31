@@ -1,8 +1,7 @@
-#| DEMO 3.1
-   Write function that returns true if arg is prime and nil if not. |#
+;; DEMO 3.1
+;; Write function that returns true if arg is prime and nil if not.
 
 (defun primep (number)
-  "@param number @return number"
   (let ((prime t))
     (if (not (or (= number 0) (= number 1)))
 	(loop for divisor from 2 to (- number 1)

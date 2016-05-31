@@ -1,9 +1,8 @@
-#| DEMO 2.5
-   Write program that prints pretty diamond with height of arg,
-   but give error message if arg is not odd. |#
+;; DEMO 2.5
+;; Write program that prints pretty diamond with height of arg,
+;; but give error message if arg is not odd.
 
 (defun diamond (height)
-  "@param number @return number"
   (if (not (oddp height))
       (princ "Height needs to be odd number!")
       (let ((half (floor (/ height 2))) (stars 1))

@@ -1,11 +1,10 @@
-#| DEMO 3.2
-   Program generates random number between 1..20 and user needs to guess it.
-   Program has to guide user by telling if number is smaller or larger. |#
+;; DEMO 3.2
+;; Program generates random number between 1..20 and user needs to guess it.
+;; Program has to guide user by telling if number is smaller or larger.
 
 (defparameter *random* (+ 1 (random 19)))
 
 (defun guess-number ()
-  "@return string"
   (princ "Guess: ")
   (let ((guess (read)))
     (if (= guess *random*)

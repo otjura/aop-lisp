@@ -1,8 +1,7 @@
-#| DEMO 2.6
-   Print as many Fibonacci numbers as user wants! |#
+;; DEMO 2.6				
+;; Print as many Fibonacci numbers as user wants!
 
 (defun fibonacci (fibs)
-  "@param number @return number"
   (iter 1 0 fibs))
 
 (defun iter (a b tally)

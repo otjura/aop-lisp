@@ -1,8 +1,7 @@
-#| DEMO 1.4
-   Parse first name and surname from whole name assuming just fname lname combo |#
+;; DEMO 1.4
+;; Parse first name and surname from whole name assuming just fname lname combo.
    
 (defun name-parser ()
-  "@return string"
   (format t "Give your name: ")
   (let ((name (read-line)))
     (format t "Full name: ~a~%" (string-capitalize name))
