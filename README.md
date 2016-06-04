@@ -2,6 +2,8 @@
 
 Entire course was about Java and all the coursework was originally done in Java.
 
+Stubs marked with *
+
 1.1. longer-string.lisp  
 1.2. age-calculator.lisp  
 1.3. average-calulator.lisp  
@@ -16,13 +18,13 @@ Entire course was about Java and all the coursework was originally done in Java.
 2.6. fibonacci.lisp  
 3.1. primenumber.lisp  
 3.2. guess-number.lisp  
-3.3. largest-common.lisp  
+3.3. largest-common.lisp *  
 3.4. samechars.lisp  
 3.5. next-in-series.lisp  
 3.6. tell-factorial.lisp  
 4.1. larger-combo-matrix.lisp  
-4.2.  
-4.3.  
-4.4.  
-4.5.  
-4.6. mastermind.lisp  
+4.2. array-sorter.lisp *  
+4.3. randomize-array.lisp *  
+4.4. duplicate-remover.lisp *  
+4.5. tic-tac-toe-checker.lisp *  
+4.6. mastermind.lisp *  
