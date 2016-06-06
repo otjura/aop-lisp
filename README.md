@@ -27,7 +27,7 @@ Stubs marked with *
 4.3. randomize-array.lisp *  
 4.4. duplicate-remover.lisp *  
 4.5. tic-tac-toe-checker.lisp *  
-4.6. mastermind.lisp *  
+4.6. mastermind.lisp  
 5.1. divide-by-three-not-five.lisp *  
 5.2. pyramid.lisp *  
 5.3. occurences-of-char-in-string.lisp *  
