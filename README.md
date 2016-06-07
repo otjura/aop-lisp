@@ -1,6 +1,4 @@
-"Basics of Algorithms and Object-Oriented Programming" (Algoritmien ja olio-ohjelmoinnin perusteet) university coursework done in Common Lisp.
-
-Entire course was about Java and all the coursework was originally done in Java.
+"Basics of Algorithms and Programming" (Algoritmien ja ohjelmoinnin perusteet) university demonstrations done in Common Lisp. Entire course was about Java, and all the demonstrations were originally done in Java.
 
 Stubs marked with *
 
@@ -28,8 +26,8 @@ Stubs marked with *
 4.4. duplicate-remover.lisp *  
 4.5. tic-tac-toe-checker.lisp *  
 4.6. mastermind.lisp  
-5.1. divide-by-three-not-five.lisp *  
-5.2. pyramid.lisp *  
+5.1. divide-by-three-not-five.lisp  
+5.2. pyramid.lisp *     
 5.3. occurences-of-char-in-string.lisp *  
 5.4. smallest-and-largest.lisp *  
 5.5. tic-tac-toe.lisp *

@@ -3,4 +3,6 @@
 ;; that are dividable by three but not by five.
 
 (defun divide-by-three-not-five ()
-  (
+  (loop for i from 100 to 200 do
+       (if (and (not (= (mod i 5) 0)) (= (mod i 3) 0))
+	   (print i))))
