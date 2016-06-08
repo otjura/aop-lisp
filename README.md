@@ -16,7 +16,7 @@ Stubs marked with *
 2.6. fibonacci.lisp  
 3.1. primenumber.lisp  
 3.2. guess-number.lisp  
-3.3. largest-common.lisp *  
+3.3. largest-common.lisp  
 3.4. samechars.lisp  
 3.5. next-in-series.lisp  
 3.6. tell-factorial.lisp  
@@ -28,7 +28,7 @@ Stubs marked with *
 4.6. mastermind.lisp  
 5.1. divide-by-three-not-five.lisp  
 5.2. pyramid.lisp     
-5.3. occurences-of-char-in-string.lisp *  
+5.3. occurences-of-char-in-string.lisp  
 5.4. smallest-and-largest.lisp  
 5.5. tic-tac-toe.lisp *
 

@@ -3,5 +3,5 @@
 ;; Method returns number of occurences of char in string.
 ;; Case must not matter.
 
-(defun occurences-of-char-in-string (string letter)
-  (
+(defun occurences-of-char-in-string (char string)
+  (count char string))
